@@ -1,0 +1,19 @@
+# Тимчасові файли та кеш байт-коду CPython
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Директорії віртуальних середовищ
+.env/
+.venv/
+env/
+venv/
+ENV/
+miniconda3/
+
+# Конфігурації VS Code (лишаємо launch.json) та ОС
+.vscode/*
+!.vscode/launch.json
+.idea/
+.DS_Store
+Thumbs.db
